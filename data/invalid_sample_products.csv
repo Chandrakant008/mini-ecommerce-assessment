@@ -1,0 +1,9 @@
+sku,barcode,name,brand,category,subcategory,mrp,selling_price,stock,image,specifications
+ERR-VALID-01,8909999001,Valid Test Product Alpha,TestBrand,Electronics,Gadgets,1000.00,800.00,5,https://images.unsplash.com/photo-1505740420928-5e560c06d30e,"{""Feature"": ""Works fine""}"
+ERR-NONAME-02,8909999002,,TestBrand,Electronics,Gadgets,1200.00,900.00,10,,""
+ERR-NOSPRICE-03,8909999003,Missing Price Gadget,TestBrand,Electronics,Gadgets,1500.00,,10,,""
+ERR-VALID-01,8909999004,Duplicate SKU Gadget,TestBrand,Electronics,Gadgets,2000.00,1800.00,4,,""
+ERR-NEGSTK-05,8909999005,Negative Stock Item,TestBrand,Electronics,Gadgets,500.00,450.00,-3,,""
+ERR-PRICEOVER-06,8909999006,Price Greater Than MRP Item,TestBrand,Electronics,Gadgets,500.00,750.00,2,,""
+ERR-NOCAT-07,8909999007,Missing Category Item,TestBrand,,Gadgets,800.00,600.00,5,,""
+ERR-VALID-02,8909999008,Valid Test Product Beta,TestBrand,Audio,Accessories,3000.00,2500.00,3,https://images.unsplash.com/photo-1546435770-a3e426bf472b,"{""Feature"": ""Also works fine""}"
