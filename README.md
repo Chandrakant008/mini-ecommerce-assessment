@@ -336,7 +336,3 @@ If extending this application for production-scale deployment:
 5. **Authentication & Persistent Carts**: Implement JWT authentication with server-side persistent shopping carts.
 
 ---
-
-## 15. AI Assistance Disclosure
-
-AI coding assistants (Google DeepMind Antigravity) were utilized for scaffolding, rapid implementation of test suites, and documentation drafting. All code, database schemas, inventory rules, and arithmetic calculations were manually inspected, executed, and verified through automated tests and end-to-end browser walkthroughs.
